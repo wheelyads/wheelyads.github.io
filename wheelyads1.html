@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheelyAds | Hyper-Local Transit Advertising Platform</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#1e3a8a',
+                        brandGold: '#f59e0b',
+                        brandDark: '#111827'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="bg-brandDark text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <span class="text-2xl font-bold tracking-wider text-brandGold flex items-center">
+                    <i class="fa-solid fa-autorickshaw mr-2"></i>WheelyAds
+                </span>
+            </div>
+            <nav class="flex flex-wrap justify-center space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-brandGold transition">About</a>
+                <a href="#technology" class="hover:text-brandGold transition">Technology</a>
+                <a href="#economics" class="hover:text-brandGold transition">Economics</a>
+                <a href="#market" class="hover:text-brandGold transition">Market Data</a>
+                <a href="#pilot" class="hover:text-brandGold transition">The Pilot</a>
+            </nav>
+            <div class="hidden lg:block">
+                <span class="text-xs text-slate-400 bg-slate-800 px-3 py-1.5 rounded-full border border-slate-700">DPIIT Recognition Applied</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-brandDark via-slate-900 to-blue-950 text-white py-20 px-6 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <span class="bg-brandGold/20 text-brandGold font-semibold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full border border-brandGold/30 inline-block mb-4">The Future of Transit Advertising in India</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Moving Stories. Real Reach.</h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10">
+                Transforming the standard Indian auto-rickshaw commute into a premium, interactive digital experience that captures the captive <span class="text-white font-semibold">"Golden 20 Minutes"</span>.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#pilot" class="bg-brandGold hover:bg-amber-500 text-brandDark font-bold px-8 py-3.5 rounded-lg shadow-lg transition transform hover:-translate-y-0.5">Explore Pilot Program</a>
+                <a href="#technology" class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-medium px-8 py-3.5 rounded-lg transition">View Technical Stack</a>
+            </div>
+        </div>
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute -top-10 -left-10 w-96 h-96 bg-brandGold rounded-full filter blur-3xl"></div>
+            <div class="absolute -bottom-10 -right-10 w-96 h-96 bg-blue-600 rounded-full filter blur-3xl"></div>
+        </div>
+    </section>
+
+    <!-- Executive Summary / Problem & Solution -->
+    <section id="about" class="py-20 px-6 container mx-auto max-w-6xl">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-brandGold text-3xl mb-4"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <h3 class="text-xl font-bold mb-3">The Problem</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Static billboards are routinely ignored, and mobile digital ads are instantly skipped. Millions of commuters spend 15–25 minutes in "digital dead-time" during transit without engaging public context or local validation.
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-emerald-500 text-3xl mb-4"><i class="fa-solid fa-circle-check"></i></div>
+                <h3 class="text-xl font-bold mb-3">The Solution</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    We install ruggedized, IoT-enabled 12.5-inch smart screens directly in the back of high-frequency auto-rickshaws, creating a secure environment for localized public service and target retail campaigns.
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-users"></i></div>
+                <h3 class="text-xl font-bold mb-3">Social & Driver Impact</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Empowering our driver-partners with a sustainable 15–20% boost in recurring monthly take-home pay, providing vital economic safety nets for local urban transport families.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Multi-Stream Advantage Layout -->
+    <section class="bg-slate-900 text-white py-20 px-6">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Proprietary "Multi-Stream" Partitioned Layout</h2>
+                <p class="text-slate-400 max-w-xl mx-auto text-sm">Our balanced presentation splits the passenger's view to optimize visual retention and campaign interaction metrics simultaneously.</p>
+            </div>
+            
+            <!-- Visual Mockup Container -->
+            <div class="bg-slate-800 rounded-2xl p-4 max-w-4xl mx-auto border-4 border-slate-700 shadow-2xl">
+                <div class="bg-slate-950 aspect-video rounded-lg overflow-hidden grid grid-cols-10 grid-rows-6 gap-2 p-2 text-center text-xs font-bold">
+                    <!-- Zone A -->
+                    <div class="col-span-8 row-span-5 bg-gradient-to-br from-blue-900 to-indigo-950 rounded border border-blue-500/40 flex flex-col justify-center items-center p-4">
+                        <span class="text-blue-400 uppercase tracking-widest text-xxs mb-1">Zone A: Premium Video Engine (70% Screen)</span>
+                        <p class="text-base text-slate-100 font-normal">Seamless, gapless looping of HD trailers and commercials via customized ExoPlayer engine.</p>
+                    </div>
+                    <!-- Zone B -->
+                    <div class="col-span-2 row-span-5 bg-gradient-to-br from-amber-950 to-orange-900 rounded border border-amber-500/40 flex flex-col justify-center items-center p-2">
+                        <span class="text-brandGold uppercase text-center block mb-2"><i class="fa-solid fa-qrcode text-2xl"></i></span>
+                        <span class="text-amber-400 text-xxs tracking-tight">Zone B: Interactive Conversion (20%)</span>
+                        <p class="text-slate-300 font-normal text-[10px] mt-1">Geo-fenced QR triggers for performance lead generation.</p>
+                    </div>
+                    <!-- Zone C -->
+                    <div class="col-span-10 row-span-1 bg-slate-900 rounded border border-slate-700 flex justify-start items-center px-4 overflow-hidden">
+                        <span class="bg-red-600 text-[10px] uppercase tracking-wider px-2 py-0.5 rounded text-white mr-3 shrink-0">Zone C: Trust Ticker (10%)</span>
+                        <p class="text-slate-400 font-normal animate-marquee whitespace-nowrap text-xs">
+                            Breaking: Hyper-local weather trends and essential real-time civic news broadcasted natively in vernacular scripts...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specs (Edge Computing Focus) -->
+    <section id="technology" class="py-20 px-6 container mx-auto max-w-5xl">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4 text-brandDark">The Technical Architecture</h2>
+            <p class="text-slate-600 max-w-xl mx-auto text-sm">Built for industrial resilience under rugged on-road variables and severe operating climates.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <div class="bg-blue-100 text-blue-700 p-3 rounded-lg"><i class="fa-solid fa-location-crosshairs text-xl"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-1">Precision Geo-Fencing</h4>
+                        <p class="text-slate-600 text-sm">Campaign items trigger automatically when entering specified target boundaries (e.g., within 2km of a specific mall or theater retail cluster).</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-blue-100 text-blue-700 p-3 rounded-lg"><i class="fa-solid fa-cloud-sun text-xl"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-1">Offline-First Synchronizations</h4>
+                        <p class="text-slate-600 text-sm">Media assets are cached cleanly in local non-volatile environments. Dynamic updates push selectively only when 4G connectivity values reach baseline metrics, cutting streaming cost structures by 80%.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-blue-100 text-blue-700 p-3 rounded-lg"><i class="fa-solid fa-car-battery text-xl"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-1">Industrial Ignition-Sense Protocol</h4>
+                        <p class="text-slate-600 text-sm">Utilizes structured 3-wire interfaces (BATT+, ACC, GND) paired with step-down converters to smoothly manage load spikes and coordinate smart sleep cycles natively with vehicle ignition states.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h4 class="text-lg font-bold mb-4 flex items-center text-brandDark">
+                    <i class="fa-solid fa-microchip mr-2 text-brandGold"></i> Hardware Requirement Profiles
+                </h4>
+                <table class="w-full text-xs text-left text-slate-600 border-collapse">
+                    <tbody>
+                        <tr class="border-b border-slate-100"><td class="py-2.5 font-semibold text-brandDark">Display</td><td class="py-2.5">10" to 12.5" IPS ruggedized panels, 300–500 nits high daylight contrast</td></tr>
+                        <tr class="border-b border-slate-100"><td class="py-2.5 font-semibold text-brandDark">Power Input</td><td class="py-2.5">Direct DC 9V–24V system capability, battery-less capacitor architectures preferred</td></tr>
+                        <tr class="border-b border-slate-100"><td class="py-2.5 font-semibold text-brandDark">App Architecture</td><td class="py-2.5">Custom Kotlin-based single-app Kiosk Mode execution with background watchdog monitors</td></tr>
+                        <tr class="border-b border-slate-100"><td class="py-2.5 font-semibold text-brandDark">Safety Build</td><td class="py-2.5">Anti-vibration industrial mounts with internal high-temperature heat-sinks</td></tr>
+                        <tr class="border-b border-slate-100"><td class="py-2.5 font-semibold text-brandDark">Telemetry</td><td class="py-2.5">Continuous hardware logs ensuring precise proof-of-play metrics</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Projections & Unit Economics -->
+    <section id="economics" class="bg-slate-100 py-20 px-6 border-y border-slate-200">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4 text-brandDark">Validated Unit Economics</h2>
+                <p class="text-slate-600 max-w-xl mx-auto text-sm">Highly optimized business model yielding rapid capital recovery cycles alongside clear margin execution profiles.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-stretch mb-12">
+                <!-- Revenue Stream Box -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-base font-bold uppercase tracking-wide text-blue-900 mb-4 border-b border-slate-100 pb-2">Estimated Monthly Revenues (50 Units Base)</h4>
+                        <div class="space-y-3 text-sm">
+                            <div class="flex justify-between"><span>Zone A: Premium Rotating Video Slots</span><span class="font-bold text-brandDark">₹3,00,000</span></div>
+                            <div class="flex justify-between text-slate-500 text-xs italic pl-4"><span>(₹6,000 baseline per vehicle allocation)</span></div>
+                            <div class="flex justify-between border-t border-slate-50 pt-2"><span>Zone B: Performance Interactive QR Actions</span><span class="font-bold text-brandDark">₹1,00,000</span></div>
+                            <div class="flex justify-between border-t border-slate-50 pt-2"><span>Zone C: Government / Public Interest Ticker Retainer</span><span class="font-bold text-brandDark">₹50,000</span></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between border-t-2 border-dashed border-slate-200 pt-4 mt-6 text-base font-extrabold text-slate-900">
+                        <span>Total Monthly Gross Pool:</span>
+                        <span class="text-blue-700">₹4,50,000</span>
+                    </div>
+                </div>
+
+                <!-- OpEx Box -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-base font-bold uppercase tracking-wide text-slate-700 mb-4 border-b border-slate-100 pb-2">Estimated Operating Expenses (OpEx)</h4>
+                        <div class="space-y-3 text-sm">
+                            <div class="flex justify-between"><span>Direct Driver Partner Incentive Returns</span><span class="font-bold text-brandDark">₹75,000</span></div>
+                            <div class="flex justify-between text-slate-500 text-xs italic pl-4"><span>(₹1,500 monthly recurring payout per auto)</span></div>
+                            <div class="flex justify-between border-t border-slate-50 pt-2"><span>4G IoT Data Matrices & Cloud Infrastructure Hosting</span><span class="font-bold text-brandDark">₹25,000</span></div>
+                            <div class="flex justify-between border-t border-slate-50 pt-2"><span>Part-Time Maintenance & Ground Field Support Teams</span><span class="font-bold text-brandDark">₹10,000</span></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between border-t-2 border-dashed border-slate-200 pt-4 mt-6 text-base font-extrabold text-slate-900">
+                        <span>Total Fleet Monthly OpEx:</span>
+                        <span class="text-red-600">₹1,10,000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Net Results Highlight Callout -->
+            <div class="bg-gradient-to-r from-brandDark to-blue-950 text-white p-8 rounded-2xl shadow-md text-center max-w-3xl mx-auto">
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-center">
+                    <div class="border-r border-slate-800 last:border-0">
+                        <span class="text-slate-400 text-xs block mb-1">Monthly Net Profit (50 Units)</span>
+                        <span class="text-2xl font-black text-brandGold">₹3,40,000</span>
+                    </div>
+                    <div class="border-r border-slate-800 last:border-0">
+                        <span class="text-slate-400 text-xs block mb-1">Net Income / Device</span>
+                        <span class="text-2xl font-black text-emerald-400">₹6,800 / mo</span>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1 border-slate-800 last:border-0 flex flex-col justify-center">
+                        <span class="text-slate-400 text-xs block mb-1">Hardware Payback Term</span>
+                        <span class="text-base font-bold bg-amber-500/20 text-brandGold px-2 py-1 rounded inline-block max-w-max mx-auto">&lt; 60 Days</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Data / Tier Population Mapping -->
+    <section id="market" class="py-20 px-6 container mx-auto max-w-5xl">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4 text-brandDark">Scalable Regional Market Demographics</h2>
+            <p class="text-slate-600 max-w-xl mx-auto text-sm">Strategic positioning focuses deployment resources starting within high-density core clusters in Karnataka before scaling out regionally across South India markets.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 items-start">
+            <div class="md:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                <div class="bg-slate-900 text-white px-6 py-4 font-bold text-sm uppercase tracking-wider">Phase 1 Target Deployment: Karnataka Population Core</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs border-collapse">
+                        <thead>
+                            <tr class="bg-slate-50 border-b border-slate-200 text-slate-500 uppercase font-semibold"><th class="px-6 py-3">District</th><th class="px-6 py-3">Est. Auto Density</th><th class="px-6 py-3">Primary Focus Alignment</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100 text-slate-700">
+                            <tr><td class="px-6 py-3.5 font-bold text-brandDark">Bengaluru (Urban)</td><td class="px-6 py-3.5">2,50,000 – 3,00,000+</td><td class="px-6 py-3.5">Tier 1 Core Metros, High-Value Ad Slots</td></tr>
+                            <tr><td class="px-6 py-3.5 font-semibold">Mysuru</td><td class="px-6 py-3.5">30,000 – 35,000</td><td class="px-6 py-3.5">Tier 2 Hub, Tourist-Centric Contexts</td></tr>
+                            <tr><td class="px-6 py-3.5 font-semibold">Hubballi-Dharwad</td><td class="px-6 py-3.5">25,000 – 28,000</td><td class="px-6 py-3.5">Industrial and Academic Hub Operations</td></tr>
+                            <tr><td class="px-6 py-3.5 font-semibold">Mangaluru</td><td class="px-6 py-3.5">20,000 – 22,000</td><td class="px-6 py-3.5">Coastal Retail and Education Infrastructure</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-brandDark text-white rounded-xl shadow-md p-6">
+                <h4 class="text-sm font-bold uppercase tracking-wider text-brandGold mb-4 border-b border-slate-800 pb-2">South India Footprint Scope</h4>
+                <div class="space-y-4 text-xs">
+                    <div class="flex justify-between items-center"><div><p class="font-bold">Telangana</p><p class="text-slate-400">Hub: Hyderabad</p></div><span class="bg-slate-800 px-2 py-1 rounded font-mono font-bold text-slate-300">5.1 Lakh</span></div>
+                    <div class="flex justify-between items-center border-t border-slate-800 pt-3"><div><p class="font-bold">Karnataka</p><p class="text-slate-400">Hub: Bengaluru</p></div><span class="bg-slate-800 px-2 py-1 rounded font-mono font-bold text-slate-300">5.0 Lakh+</span></div>
+                    <div class="flex justify-between items-center border-t border-slate-800 pt-3"><div><p class="font-bold">Andhra Pradesh</p><p class="text-slate-400">Hub: Visakhapatnam</p></div><span class="bg-slate-800 px-2 py-1 rounded font-mono font-bold text-slate-300">4.5 Lakh</span></div>
+                    <div class="flex justify-between items-center border-t border-slate-800 pt-3"><div><p class="font-bold">Tamil Nadu</p><p class="text-slate-400">Hub: Chennai</p></div><span class="bg-slate-800 px-2 py-1 rounded font-mono font-bold text-slate-300">3.0 Lakh</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilot Program Focus -->
+    <section id="pilot" class="bg-gradient-to-br from-blue-950 to-brandDark text-white py-20 px-6">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-4">Phase 1: The "Centurion" Pilot Campaign</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto text-sm mb-12">
+                We are choosing exactly <span class="text-white font-semibold">one exclusive launch brand partner</span> for our initial 100-auto-rickshaw fleet deployment concentrated in the high-density Indiranagar and Koramangala sectors of Bengaluru.
+            </p>
+            
+            <div class="grid sm:grid-cols-3 gap-6 text-left mb-12">
+                <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800">
+                    <span class="text-brandGold text-lg font-bold block mb-1">100</span>
+                    <p class="text-slate-400 text-xs font-medium uppercase tracking-wide">Verified High-Frequency Fleet Autos</p>
+                </div>
+                <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800">
+                    <span class="text-brandGold text-lg font-bold block mb-1">4 Weeks</span>
+                    <p class="text-slate-400 text-xs font-medium uppercase tracking-wide">Intensive Passenger Engagement Metric Study</p>
+                </div>
+                <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800">
+                    <span class="text-brandGold text-lg font-bold block mb-1">Analytics</span>
+                    <p class="text-slate-400 text-xs font-medium uppercase tracking-wide">Weekly Engagement Heat Maps & Dynamic QR Conversion Data</p>
+                </div>
+            </div>
+            
+            <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl max-w-xl mx-auto">
+                <h4 class="text-base font-bold text-slate-200 uppercase tracking-widest mb-2">Connect with the Founder</h4>
+                <p class="text-xl font-bold text-brandGold mb-1">S Lakshman Rao</p>
+                <p class="text-xs text-slate-400 font-medium mb-4">Founder & Lead Strategist, WheelyAds</p>
+                <div class="inline-block bg-slate-950 px-4 py-2 rounded text-xs text-slate-300 font-mono tracking-wider border border-slate-800">
+                    www.wheelyads.in
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 text-center py-8 text-xs border-t border-slate-900">
+        <p>&copy; 2026 WheelyAds Smart Transit Initiative. All rights reserved.</p>
+        <p class="mt-2 text-slate-700">Designed in strict alignment with the Startup India Seed Fund Framework and Karnataka Startup Policy guidelines.</p>
+    </footer>
+
+</body>
+</html>
